@@ -1,0 +1,43 @@
+p{ 
+    color: teal;
+    font-size:large;
+}
+div.container {
+  text-align: center;
+}
+ol  {
+    text-align: left;
+    display:inline-block
+}
+
+html {
+    font-family:"Indie Flower", cursive; 
+    background-color: sandybrown
+}
+
+h3{
+    background-color: powderblue; 
+    text-align: center;
+    border: 2px solid blueviolet
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+.highlight_01 {
+    background-color: orange;
+}
+
+.highlight_02 {
+    background-color: red;
+}
+
+#timuoxi {
+    width: 400px;
+}
+
+#arigato {
+    width: 100px;
+}
