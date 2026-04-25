@@ -1,0 +1,116 @@
+html, body {
+  background-image: url("pexels-ithalu-907485.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* overflow: scroll; */
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.yellow-box {
+    background-color: rgb(237, 187, 61);
+    width: fit-content;
+    margin: 15px;
+    padding: 1px 15px;
+    border: 3px solid black;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+#hollander {
+    background-color: rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin: 120px 0 0 100px;
+    width: 570px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+#hollander img {
+    position: relative;
+    width: 400px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+#hollander p {
+    position: relative;
+    font-size: 320%;
+    padding-left: 130px
+    
+}
+
+#prime {
+    background-color: rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin: 120px 0 0 200px;
+    width: 570px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+#primetitle {
+    position: relative;
+    width: 200px;
+    padding-left: 180px;
+    padding-top: 30px;
+    
+}
+
+#hey {
+    position: absolute;
+    width: 50px;
+    padding-top: 120px;
+}
+
+#super {
+    position: relative;
+    width: 280px;
+    padding-top: 40px;
+    padding-left: 155px;
+
+}
+
+
+#highlight_01 {
+    position: absolute;
+    left: 50px;
+}
+
+#highlight_02 {
+     position: absolute;
+    top: 75px;
+    left: 100px;
+
+}
+
+#highlight_03 {
+     position: relative;
+    top: 140px;
+    left: 150px
+    
+}
+
+#highlight_04 {
+     position: relative;
+    top: 130px;
+    left: 200px
+    
+}
+
+#highlight_05 {
+     position: absolute;
+    top: 220px;
+    left: 715px
+    
+}
+
+#highlight_06 {
+     position: absolute;
+    top: 145px;
+    left: 1250px
+    
+}
