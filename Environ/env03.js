@@ -12,15 +12,12 @@ let mainEntity = {
     favoriteElement: environmentElements[1]
 };
 
-
 $("#super").click(function () {
 
     console.log("prime is clicked");
     appearingImage1.src = "bubble-prime.png";
     appearingImage1.style.width = "140px";
     appearingImage1.style.height = "auto";
-
-
 })
 
 
@@ -28,6 +25,5 @@ $("#hollander img").click(function () {
 
     console.log("hollander is clicked");
     appearingImage2.style.display = "block";
-
 })
 

@@ -1,3 +1,4 @@
+
 let appearingImage1 = document.getElementById("hey");
 let appearingImage2 = document.getElementById("bubble-hollander");
 let buttonImage = document.getElementById("weather-button");
@@ -12,6 +13,8 @@ let mainEntity = {
     isMoving: true,
     favoriteElement: environmentElements[1]
 };
+
+// hover functions for buttons
 
 $("#super").hover(
     function() {
@@ -30,7 +33,7 @@ $("#hollander img").hover(
         $(this).removeClass("perked");
     }
 );
-
+ 
 $("#weather-button").hover(
     function() {
         $(this).addClass("perked");
@@ -39,6 +42,8 @@ $("#weather-button").hover(
         $(this).removeClass("perked");
     }
 );
+
+// three main button prompts
 
 $("#super").click(function () {
 
@@ -57,6 +62,8 @@ $("#hollander img").click(function () {
     appearingImage2.style.display = "block";
 
 })
+
+// weather button fuctions
 
 buttonImage.addEventListener("click", function() {
 

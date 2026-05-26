@@ -8,8 +8,7 @@ body {
   background-image: url("Sunset.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  /* overflow: scroll; */
- 
+    /* overflow: scroll; */
 }
 
 #weather-button {
@@ -56,7 +55,6 @@ body {
     position: relative;
     font-size: 320%;
     padding-left: 130px
-    
 }
 
 #bubble-hollander {
@@ -81,7 +79,6 @@ body {
     width: 200px;
     padding-left: 180px;
     padding-top: 30px;
-    
 }
 
 #hey {
@@ -95,7 +92,6 @@ body {
     width: 280px;
     padding-top: 40px;
     padding-left: 155px;
-
 }
 
 #bubbleprime {
@@ -103,7 +99,6 @@ body {
     width: 200px;
     padding-top: 180px;
     padding-left: -3000px;
-   
 }
 
 
@@ -116,33 +111,28 @@ body {
      position: absolute;
     top: 75px;
     left: 100px;
-
 }
 
 #highlight_03 {
      position: relative;
     top: 140px;
     left: 150px
-    
 }
 
 #highlight_04 {
      position: relative;
     top: 130px;
-    left: 200px
-    
+    left: 200px 
 }
 
 #highlight_05 {
      position: absolute;
     top: 220px;
     left: 715px
-    
 }
 
 #highlight_06 {
      position: absolute;
     top: 145px;
     left: 1250px
-    
 }
